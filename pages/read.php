@@ -15,7 +15,7 @@ require 'header.php';
 	
 	<div class="container diary_background read_window p-3">
 		<div class="title_font">
-			"<?php echo $title; ?>" 
+			"<?php echo "<pre>".$title.""; ?>" 
 		</div>
 		<div class="entry_font">
 			<?php echo $entry; ?> 
