@@ -3,11 +3,11 @@ include("connectlogic.php");
 session_start();
 if (isset($_POST["submit"])) {
     $user_id = $_SESSION['user_id'];
-	$title = strip_tags(addslashes($_POST['title']));
+	$title = $_POST['title'];
 	if(empty($title)){
 		$title = "Untitled.....";
 	}
-	$entry = strip_tags(addslashes($_POST['entry']));
+	$entry = $_POST['entry'];
 	$timestamp = date("d-m-y h:m:s");
 	
 	if(isset($_SESSION['edit'])){
