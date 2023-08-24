@@ -27,7 +27,7 @@
 		<img src="../images/logo.png" alt="" height="100px">
 		<h3 id="head-login" class="mt-3">LOGIN</h3>	
 
-		<form action="../backend/loginlogic.php" method="POST" class="" autocomplete="off" >
+		<form action="../backend/loginlogic.php" class="form_valid" method="POST" class="" autocomplete="off" >
 		
 		<div class="form-elements mb-5"><input type="email" name="email" placeholder="Email" id="email"></div>
 
