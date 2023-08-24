@@ -24,7 +24,7 @@
 		<img src="images/logo.png" alt="" height="100px">
 		<h3 id="head-register" class="mt-3">REGISTER</h3>
 
-		<form action="backend/registerlogic.php" method="POST"  autocomplete="off" >
+		<form action="backend/registerlogic.php" class="form_valid" method="POST"  autocomplete="off" >
 		<div class="form-elements mb-5"><input type="text" name="name" placeholder="Full Name" id="name"><span id="warning1"></span></div>
 		
 		<div class="form-elements mb-5"><input type="email" name="email" placeholder="Email" id="email"><span id="warning2"></span></div>
