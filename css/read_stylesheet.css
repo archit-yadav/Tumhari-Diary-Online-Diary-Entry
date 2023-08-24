@@ -21,7 +21,8 @@ body {
   text-align: center;
 }
 
-.entry_font {
+.entry_font pre{
   font-family: "Cedarville Cursive", cursive;
   font-size: 25px;
+  color:white;
 }
